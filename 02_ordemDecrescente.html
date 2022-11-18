@@ -1,0 +1,59 @@
+<script>
+    /*
+    //PROBLEMA
+    Faça um script que leia três números e mostre-os em ordem decrescente.
+    */
+    
+
+    //ENTRADA
+
+    const numeroUm = parseFloat(prompt("Digite um numero"))
+    const numeroDois = parseFloat(prompt("Digite um segundo numero"))
+    const numeroTRes = parseFloat(prompt("Digite o terceiro numero"))
+
+    //PROCESSAMENTO
+
+    if (numeroUm < numeroDois && numeroDois < numeroTRes) {
+        document.write(` a ordem decrescente é ${numeroTRes}, ${numeroDois}, ${numeroUm}`)
+    }
+    else if (numeroDois < numeroUm && numeroTRes < numeroUm) {
+        document.write(` a ordem decrescente é ${numeroUm}, ${numeroTRes}, ${numeroDois}`)
+    }
+    else if (numeroTRes < numeroDois && numeroUm < numeroDois) {
+        document.write(` a ordem decrescente é ${numeroUm}, ${numeroDois}, ${numeroTRes}`)
+    }
+    else if (numeroUm < numeroDois && numeroTRes < numeroDois) {
+        document.write(` a ordem decrescente é ${numeroDois}, ${numeroTRes}, ${numeroUm}`)
+    }
+    else if (numeroDois < numeroTRes && numeroUm < numeroTRes) {
+        document.write(` a ordem decrescente é ${numeroTRes}, ${numeroUm}, ${numeroDois}`)
+    }
+    else if (numeroTRes < numeroUm && numeroDois < numeroUm) {
+        document.write(` a ordem decrescente é ${numeroUm}, ${numeroTRes}, ${numeroDois}`)
+    }
+else if ( numeroUm = numeroDois && numeroTRes > numeroDois) {
+    document.write(` a ordem decrescente é ${numeroTRes}, ${numeroDois}, ${numeroUm}`)
+}
+else if (numeroTRes < numeroUm && numeroUm === numeroDois) {
+    document.write(`a ordem decrescente é ${numeroUm}, ${numeroDois}, ${numeroTRes}`)
+}
+else if (numeroTRes === numeroUm && numeroDois > numeroTRes){
+    document.write(`a ordem decrescente é ${numeroDois}, ${numeroUm}, ${numeroTRes}`)
+}
+else if (numeroDois < numeroUm && numeroUm === numeroDois ){
+    document.write(`a ordem decrescente é ${numeroTRes}, ${numeroUm}, ${numeroDois}`)
+}
+else if ( numeroDois === numeroTRes && numeroUm > numeroDois){
+    document.write(`a ordem decrescente é ${numeroUm}, ${numeroTRes}, ${numeroDois}`)
+}
+else if (numeroUm < numeroDois && numeroDois === numeroTRes){
+    document.write(`a ordem decrescente é ${numeroDois}, ${numeroTRes}, ${numeroUm}`)
+}
+else if (numeroUm === numeroDois && numeroDois === numeroTRes){
+    document.write(`a ordem decrescente é ${numeroDois}, ${numeroUm}, ${numeroTRes}`)
+}
+
+    //SAÍDA
+   
+
+</script>
